@@ -178,7 +178,7 @@ def main():
     players = load_csv(players_file)
 
     if not matches:
-        st.warning("Match file not loaded")
+        st.warning("Match file not loaded, do not enter empty file")
         return
 
     if not players:
